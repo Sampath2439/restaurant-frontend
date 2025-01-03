@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { db } from "./firebaseconfig";
-import { collection, addDoc, getDocs, query, where } from "firebase/firestore";
+import { collection, getDocs, query, where } from "firebase/firestore";
 import BookingSuccessModal from './BookingSuccessModal';
 import usePageTitle from './usePageTitle';
 
