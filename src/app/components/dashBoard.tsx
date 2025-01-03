@@ -45,7 +45,7 @@ const Dashboard = () => {
   
   const handleDelete = async (id: string) => {
     try {
-      const response = await fetch(`http://localhost:5001/api/deleteBooking/${id}`, {
+      const response = await fetch(`https://database.sampath.cloud/api/deleteBooking/${id}`, {
         method: 'DELETE',
       });
       if (!response.ok) {
