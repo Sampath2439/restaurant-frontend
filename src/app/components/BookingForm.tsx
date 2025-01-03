@@ -47,7 +47,7 @@ const BookingForm = () => {
         return;
       }
 
-      const response = await fetch('http://localhost:5000/api/createBooking', {
+      const response = await fetch('http://database.sampath.cloud/api/createBooking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
