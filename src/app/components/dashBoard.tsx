@@ -18,7 +18,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const response = await fetch('http://database.sampath.cloud/api/getAllBookings');
+        const response = await fetch('https://database.sampath.cloud/api/getAllBookings');
         if (!response.ok) {
           throw new Error('Failed to fetch bookings.');
         }
